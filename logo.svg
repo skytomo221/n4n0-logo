@@ -1,60 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="297mm"
-   height="210mm"
-   viewBox="0 0 297 210"
-   version="1.1"
-   id="svg5"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
-   sodipodi:docname="logo.svg"
-   xml:space="preserve"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
-     id="namedview7"
-     pagecolor="#505050"
-     bordercolor="#eeeeee"
-     borderopacity="1"
-     inkscape:showpageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#505050"
-     inkscape:document-units="mm"
-     showgrid="false"
-     inkscape:zoom="0.91490602"
-     inkscape:cx="597.32911"
-     inkscape:cy="333.91408"
-     inkscape:window-width="1935"
-     inkscape:window-height="1259"
-     inkscape:window-x="1137"
-     inkscape:window-y="553"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="layer1" /><defs
-     id="defs2" /><g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1"><path
-       style="fill:none;stroke:#ff0000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
-       d="m 18.428963,94.47753 0.379408,36.63858 c 0.03387,3.27087 -0.147819,5.86542 3.123126,5.84073 l 15.134931,-0.10224 -0.306735,-36.70147 c 10.26747,0.37676 19.385301,11.69078 19.751177,36.84722 l 17.736759,-0.0256 C 75.343879,107.90862 65.64142,82.014249 32.744855,81.790574 24.20752,81.854933 18.358315,87.655169 18.428963,94.47753 Z"
-       id="path414"
-       sodipodi:nodetypes="ssscccccs" /><path
-       style="fill:none;stroke:#ff0000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
-       d="m 213.1776,94.107385 -0.37941,36.638585 c -0.0339,3.27087 0.14782,5.86542 -3.12313,5.84073 l -15.13493,-0.10224 0.30674,-36.701475 c -10.26747,0.376765 -19.3853,11.690785 -19.75118,36.847225 l -17.73676,-0.0256 c -1.09625,-29.06613 8.60621,-54.960507 41.50278,-55.184182 8.53733,0.06436 14.38654,5.864595 14.31589,12.686957 z"
-       id="path414-0"
-       sodipodi:nodetypes="ssscccccs" /><path
-       id="path1293"
-       style="fill:none;stroke:#ff0000;stroke-width:2.12397;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
-       d="m 277.14011,109.65284 c 0,15.83168 -12.83411,28.66579 -28.66579,28.66578 -15.83167,0 -28.66578,-12.83411 -28.66578,-28.66578 -4e-5,-15.8317 12.83408,-28.66585 28.66578,-28.66585 15.8317,-6e-6 28.66583,12.834146 28.66579,28.66585 z"
-       sodipodi:nodetypes="sssss" /><path
-       id="path1413"
-       style="fill:none;fill-opacity:0.5;stroke:#ff0000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers fill stroke"
-       d="m 99.994963,117.32009 c 3.090737,-9.01921 10.820297,-14.15926 18.949207,-16.74936 -3.22584,5.67824 -7.77251,17.08838 -7.77251,17.08838 z m 26.013277,18.7171 15.85963,0.43376 c 9.18405,0.13839 13.19826,-15.15401 0.63074,-18.01236 l -12.14076,-0.2169 c 0,0 6.43849,-13.60382 12.31173,-23.145581 7.44363,-14.4816 -13.62772,-13.83012 -13.62772,-13.83012 -16.76201,0.27913 -27.30672,5.93598 -34.939838,13.17283 -7.63312,7.236871 -12.02236,16.334941 -13.35987,26.456701 0,0 -3.12089,14.30432 14.47799,14.49603 l 12.629698,0.23766 c -0.63261,5.53079 -0.96256,10.74062 -0.96256,10.74062 0.84057,9.72029 15.42977,12.24595 17.96876,0.79953 0,0 0.35692,-5.45678 1.1522,-11.13217 z"
-       sodipodi:nodetypes="ccccccccccscccccc" /><circle
-       style="fill:none;fill-opacity:0.5;stroke:#ff0000;stroke-width:1.83842;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers fill stroke"
-       id="path1879"
-       cx="249.06821"
-       cy="109.21532"
-       r="10.714242" /></g></svg>
+<svg viewBox="0 0 297 210" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" stroke="red" stroke-linecap="round" stroke-linejoin="round" paint-order="markers fill stroke">
+    <path
+      d="m18.4 94.5.4 36.6c0 3.3-.1 5.9 3.1 5.9l15.2-.1-.3-36.7c10.2.3 19.3 11.6 19.7 36.8h17.7c1.1-29-8.6-55-41.5-55.2-8.5 0-14.3 5.9-14.3 12.7ZM213.2 94.1l-.4 36.6c0 3.3.1 6-3.1 5.9l-15.2-.1.3-36.7c-10.2.4-19.3 11.7-19.7 36.8h-17.7c-1.1-29 8.6-55 41.5-55.2 8.5 0 14.3 5.9 14.3 12.7z"
+      stroke-width="2" />
+    <path d="M277.1 109.7a28.7 28.7 0 1 1-57.3 0 28.7 28.7 0 0 1 57.3 0z" stroke-width="2.1" />
+    <path
+      d="M100 117.3c3-9 10.8-14.1 19-16.7-3.3 5.6-7.8 17-7.8 17zm26 18.7 15.9.5c9.2.1 13.2-15.2.6-18l-12.1-.3s6.4-13.6 12.3-23.1C150 80.6 129 81.3 129 81.3a49 49 0 0 0-34.9 13.1A43.6 43.6 0 0 0 80.7 121s-3 14.3 14.5 14.5l12.6.2-1 10.8c1 9.7 15.5 12.2 18 .8 0 0 .4-5.5 1.2-11.2z"
+      stroke-width="2" />
+    <circle cx="249.1" cy="109.2" r="10.7" stroke-width="1.8" />
+  </g>
+</svg>
