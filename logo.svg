@@ -1,8 +1,13 @@
 <svg viewBox="0 0 297 210" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="n4n0Gradient" x1="0" y1="0" x2="0" y2="1">
-      <stop stop-color="#e51aa1" offset="0" />
-      <stop stop-color="#e51a1a" offset="1" />
+      <stop stop-color="#f6babc" offset="0" />
+      <stop stop-color="#e4a7d5" offset="1" />
+    </linearGradient>
+    <linearGradient id="n4n0ExtendedGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#f6babc" offset="0" />
+      <stop stop-color="#e4a7d5" offset="0.74" />
+      <stop stop-color="#d993d9" offset="1" />
     </linearGradient>
   </defs>
   <g fill="url(#n4n0Gradient)" stroke-linecap="round" stroke-linejoin="round" paint-order="markers fill stroke">
@@ -27,7 +32,7 @@
              s -3 14.3 14.5 14.5
              l 12.6 .2 -1 10.8
              c 1 9.7 15.5 12.2 18 .8 0 0 .4 -5.5 1.2 -11.2
-             z" stroke-width="2" />
+             z" fill="url(#n4n0ExtendedGradient)" stroke-width="2" />
     <use href="#n" x="-232" transform="scale(-1, 1)" />
     <path d="M 249.1 98.5
              a 10.7 10.7 0 1 0 0 21.4 10.7 10.7 0 0 0 0 -21.4
