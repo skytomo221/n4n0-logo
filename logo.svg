@@ -1,5 +1,11 @@
 <svg viewBox="0 0 297 210" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
-  <g fill="none" stroke="red" stroke-linecap="round" stroke-linejoin="round" paint-order="markers fill stroke">
+  <defs>
+    <linearGradient id="n4n0Gradient" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#e51aa1" offset="0" />
+      <stop stop-color="#e51a1a" offset="1" />
+    </linearGradient>
+  </defs>
+  <g fill="url(#n4n0Gradient)" stroke-linecap="round" stroke-linejoin="round" paint-order="markers fill stroke">
     <path d="m 18.4 94.5 .4 36.6
              c 0 3.3 -.1 5.9 3.1 5.9
              l 15.2 -.1 -.3 -36.7
