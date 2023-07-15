@@ -3,25 +3,25 @@
     <linearGradient id="n4n0Gradient" x1="0" y1="0" x2="0" y2="1">
       <stop stop-color="gray" offset="0">
         <set attributeName="stop-color" begin="shutter.end" to="#f6babc" />
-        <animate attributeName="stop-color" begin="final.end + 1.5" dur="0.5" fill="freeze" id="rollback" to="gray" />
+        <animate attributeName="stop-color" begin="final.end + 4.5" dur="0.5" fill="freeze" id="rollback" to="gray" />
       </stop>
       <stop stop-color="gray" offset="1">
         <set attributeName="stop-color" begin="shutter.end" to="#e4a7d5" />
-        <animate attributeName="stop-color" begin="final.end + 1.5" dur="0.5" fill="freeze" to="gray" />
+        <animate attributeName="stop-color" begin="final.end + 4.5" dur="0.5" fill="freeze" to="gray" />
       </stop>
     </linearGradient>
     <linearGradient id="n4n0ExtendedGradient" x1="0" y1="0" x2="0" y2="1">
       <stop stop-color="gray" offset="0">
         <set attributeName="stop-color" begin="shutter.end" to="#f6babc" />
-        <animate attributeName="stop-color" begin="final.end + 1.5" dur="0.5" fill="freeze" to="gray" />
+        <animate attributeName="stop-color" begin="final.end + 4.5" dur="0.5" fill="freeze" to="gray" />
       </stop>
       <stop stop-color="gray" offset="0.74">
         <set attributeName="stop-color" begin="shutter.end" to="#e4a7d5" />
-        <animate attributeName="stop-color" begin="final.end + 1.5" dur="0.5" fill="freeze" to="gray" />
+        <animate attributeName="stop-color" begin="final.end + 4.5" dur="0.5" fill="freeze" to="gray" />
       </stop>
       <stop stop-color="gray" offset="1">
         <set attributeName="stop-color" begin="shutter.end" to="#d993d9" />
-        <animate attributeName="stop-color" begin="final.end + 1.5" dur="0.5" fill="freeze" to="gray" />
+        <animate attributeName="stop-color" begin="final.end + 4.5" dur="0.5" fill="freeze" to="gray" />
       </stop>
     </linearGradient>
   </defs>
@@ -67,7 +67,7 @@
       <set attributeName="stroke" begin="final.end" to="gray" />
       <set attributeName="r" begin="final.end" to="19" />
       <set attributeName="stroke-width" begin="final.end" to="19" />
-      <animate attributeName="opacity" begin="final.end + 1.5" dur="0.5" to="1" fill="freeze" />
+      <animate attributeName="opacity" begin="final.end + 4.5" dur="0.5" to="1" fill="freeze" />
       <animate attributeName="r" begin="1; rollback.end + 1" dur="0.2" id="shutter" to="9.5" fill="freeze" />
       <animate attributeName="stroke" begin="shutter.end" dur="0.5" values="white; #f6babc" fill="freeze" />
       <animate attributeName="r" begin="shutter.end" dur="0.5" to="100" fill="freeze" />
