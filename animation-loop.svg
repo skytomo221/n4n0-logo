@@ -1,0 +1,68 @@
+<svg viewBox="0 0 297 210" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="n4n0Gradient" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="gray" offset="0">
+        <set attributeName="stop-color" begin="shutter.end" to="#f6babc" />
+      </stop>
+      <stop stop-color="gray" offset="1">
+        <set attributeName="stop-color" begin="shutter.end" to="#e4a7d5" />
+      </stop>
+    </linearGradient>
+    <linearGradient id="n4n0ExtendedGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="gray" offset="0">
+        <set attributeName="stop-color" begin="shutter.end" to="#f6babc" />
+      </stop>
+      <stop stop-color="gray" offset="0.74">
+        <set attributeName="stop-color" begin="shutter.end" to="#e4a7d5" />
+      </stop>
+      <stop stop-color="gray" offset="1">
+        <set attributeName="stop-color" begin="shutter.end" to="#d993d9" />
+      </stop>
+    </linearGradient>
+  </defs>
+  <g fill="url(#n4n0Gradient)" stroke-linecap="round" stroke-linejoin="round" paint-order="markers fill stroke">
+    <path d="m 18.4 94.5 .4 36.6
+             c 0 3.3 -.1 5.9 3.1 5.9
+             l 15.2 -.1 -.3 -36.7
+             c 10.2 .3 19.3 11.6 19.7 36.8
+             h 17.7
+             c 1.1 -29 -8.6 -55 -41.5 -55.2 -8.5 0 -14.3 5.9 -14.3 12.7
+             z" id="n" />
+    <path d="M 100 117.3
+             c 3 -9 10.8 -14.1 19 -16.7
+             a 164 164 0 0 0 -7.8 17
+             z
+             m 26 18.7 15.9 .5
+             c 9.2 .1 13.2 -15.2 .6 -18
+             l -12.1 -.3
+             s 6.4 -13.6 12.3 -23.1
+             C 150 80.6 129 81.3 129 81.3
+             a 49 49 0 0 0 -34.9 13.1
+             A 43.6 43.6 0 0 0 80.7 121
+             s -3 14.3 14.5 14.5
+             l 12.6 .2 -1 10.8
+             c 1 9.7 15.5 12.2 18 .8 0 0 .4 -5.5 1.2 -11.2
+             z" fill="url(#n4n0ExtendedGradient)">
+      <animateTransform additive="sum" attributeName="transform" begin="shutter.end" type="translate"
+        values="0; 0 16; 0 -8; 0 8; 0 -4; 0 4; 0" dur="1" />
+      <animateTransform additive="sum" attributeName="transform" begin="shutter.end" type="scale"
+        values="1; 1, 0.90; 1 1.05; 1, 0.95; 1 1.025; 1 0.975; 1" dur="1" />
+    </path>
+    <use href="#n" x="-232" transform="scale(-1, 1)" />
+    <path d="M 249.1 98.5
+             a 10.7 10.7 0 1 0 0 21.4 10.7 10.7 0 0 0 0 -21.4
+             z
+             m 29 10.7
+             a 29 29 0 1 1 -58 0 29 29 0 0 1 58 0
+             z">
+      <set attributeName="display" begin="shutter.end" to="inherit" />
+    </path>
+    <circle cx="249.1" cy="109.2" r="20" stroke-width="19" fill="transparent" stroke="gray">
+      <animate attributeName="r" begin="1" dur="0.2" id="shutter" to="9.5" fill="freeze" />
+      <animate attributeName="stroke" begin="shutter.end" dur="0.5" values="white; #f6babc" fill="freeze" />
+      <animate attributeName="r" begin="shutter.end" dur="0.5" to="100" fill="freeze" />
+      <animate attributeName="stroke-width" begin="shutter.end" dur="0.5" values="50; 0" fill="freeze" />
+      <animate attributeName="opacity" begin="shutter.end" dur="0.5" to="0" fill="freeze" />
+    </circle>
+  </g>
+</svg>
