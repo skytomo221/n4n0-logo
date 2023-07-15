@@ -3,20 +3,25 @@
     <linearGradient id="n4n0Gradient" x1="0" y1="0" x2="0" y2="1">
       <stop stop-color="gray" offset="0">
         <set attributeName="stop-color" begin="shutter.end" to="#f6babc" />
+        <animate attributeName="stop-color" begin="final.end + 1.5" dur="0.5" fill="freeze" id="rollback" to="gray" />
       </stop>
       <stop stop-color="gray" offset="1">
         <set attributeName="stop-color" begin="shutter.end" to="#e4a7d5" />
+        <animate attributeName="stop-color" begin="final.end + 1.5" dur="0.5" fill="freeze" to="gray" />
       </stop>
     </linearGradient>
     <linearGradient id="n4n0ExtendedGradient" x1="0" y1="0" x2="0" y2="1">
       <stop stop-color="gray" offset="0">
         <set attributeName="stop-color" begin="shutter.end" to="#f6babc" />
+        <animate attributeName="stop-color" begin="final.end + 1.5" dur="0.5" fill="freeze" to="gray" />
       </stop>
       <stop stop-color="gray" offset="0.74">
         <set attributeName="stop-color" begin="shutter.end" to="#e4a7d5" />
+        <animate attributeName="stop-color" begin="final.end + 1.5" dur="0.5" fill="freeze" to="gray" />
       </stop>
       <stop stop-color="gray" offset="1">
         <set attributeName="stop-color" begin="shutter.end" to="#d993d9" />
+        <animate attributeName="stop-color" begin="final.end + 1.5" dur="0.5" fill="freeze" to="gray" />
       </stop>
     </linearGradient>
   </defs>
@@ -44,7 +49,7 @@
              c 1 9.7 15.5 12.2 18 .8 0 0 .4 -5.5 1.2 -11.2
              z" fill="url(#n4n0ExtendedGradient)">
       <animateTransform additive="sum" attributeName="transform" begin="shutter.end" type="translate"
-        values="0; 0 16; 0 -8; 0 8; 0 -4; 0 4; 0" dur="1" />
+        values="0; 0 16; 0 -8; 0 8; 0 -4; 0 4; 0" dur="1" id="final" />
       <animateTransform additive="sum" attributeName="transform" begin="shutter.end" type="scale"
         values="1; 1, 0.90; 1 1.05; 1, 0.95; 1 1.025; 1 0.975; 1" dur="1" />
     </path>
@@ -56,9 +61,14 @@
              a 29 29 0 1 1 -58 0 29 29 0 0 1 58 0
              z">
       <set attributeName="display" begin="shutter.end" to="inherit" />
+      <set attributeName="display" begin="rollback.end" to="none" />
     </path>
     <circle cx="249.1" cy="109.2" r="20" stroke-width="19" fill="transparent" stroke="gray">
-      <animate attributeName="r" begin="1" dur="0.2" id="shutter" to="9.5" fill="freeze" />
+      <set attributeName="stroke" begin="final.end" to="gray" />
+      <set attributeName="r" begin="final.end" to="19" />
+      <set attributeName="stroke-width" begin="final.end" to="19" />
+      <animate attributeName="opacity" begin="final.end + 1.5" dur="0.5" to="1" fill="freeze" />
+      <animate attributeName="r" begin="1; rollback.end + 1" dur="0.2" id="shutter" to="9.5" fill="freeze" />
       <animate attributeName="stroke" begin="shutter.end" dur="0.5" values="white; #f6babc" fill="freeze" />
       <animate attributeName="r" begin="shutter.end" dur="0.5" to="100" fill="freeze" />
       <animate attributeName="stroke-width" begin="shutter.end" dur="0.5" values="50; 0" fill="freeze" />
