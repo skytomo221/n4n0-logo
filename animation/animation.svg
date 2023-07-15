@@ -9,9 +9,15 @@
       </stop>
     </linearGradient>
     <linearGradient id="n4n0ExtendedGradient" x1="0" y1="0" x2="0" y2="1">
-      <stop stop-color="#f6babc" offset="0" />
-      <stop stop-color="#e4a7d5" offset="0.74" />
-      <stop stop-color="#d993d9" offset="1" />
+      <stop stop-color="gray" offset="0">
+        <set attributeName="stop-color" begin="shutter.end" to="#f6babc" />
+      </stop>
+      <stop stop-color="gray" offset="0.74">
+        <set attributeName="stop-color" begin="shutter.end" to="#e4a7d5" />
+      </stop>
+      <stop stop-color="gray" offset="1">
+        <set attributeName="stop-color" begin="shutter.end" to="#d993d9" />
+      </stop>
     </linearGradient>
   </defs>
   <g fill="url(#n4n0Gradient)" stroke-linecap="round" stroke-linejoin="round" paint-order="markers fill stroke">
@@ -36,7 +42,7 @@
              s -3 14.3 14.5 14.5
              l 12.6 .2 -1 10.8
              c 1 9.7 15.5 12.2 18 .8 0 0 .4 -5.5 1.2 -11.2
-             z">
+             z" fill="url(#n4n0ExtendedGradient)">
       <animateTransform additive="sum" attributeName="transform" begin="shutter.end" type="translate"
         values="0; 0 16; 0 -8; 0 8; 0 -4; 0 4; 0" dur="1" />
       <animateTransform additive="sum" attributeName="transform" begin="shutter.end" type="scale"
