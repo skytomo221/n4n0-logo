@@ -37,9 +37,10 @@
              l 12.6 .2 -1 10.8
              c 1 9.7 15.5 12.2 18 .8 0 0 .4 -5.5 1.2 -11.2
              z" stroke-width="2">
-      <animateTransform attributeName="transform" begin="shutter.end" type="translate" to="100" dur="1"  repeatCount="indefinite" />
-      <animateTransform attributeName="transform" begin="shutter.end" type="scale" values="1;1,0.9;1;1,0.95;1"  repeatCount="indefinite"
-        dur="1"/>
+      <animateTransform additive="sum" attributeName="transform" begin="shutter.end" type="translate"
+        values="0; 0 16; 0 -8; 0 8; 0 -4; 0 4; 0" dur="1" />
+      <animateTransform additive="sum" attributeName="transform" begin="shutter.end" type="scale"
+        values="1; 1, 0.90; 1 1.05; 1, 0.95; 1 1.025; 1 0.975; 1" dur="1" />
     </path>
     <use href="#n" x="-232" transform="scale(-1, 1)" />
     <path d="M 249.1 98.5
